@@ -1,3 +1,5 @@
+winget install git.git
+winget install cmake
 if not exist vcpkg (
 	git clone https://github.com/microsoft/vcpkg
 	call .\vcpkg\bootstrap-vcpkg.bat
